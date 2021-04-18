@@ -1,24 +1,81 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './pages/Home'
+import About from './pages/About'
+import Blog from './pages/Blog'
+import Portfolio from './pages/Portfolio'
+import Contact from './pages/Contact'
+import webLogo3 from './images/webLogo4.png'
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <>
+      <Router>
+        <Header
+          logo={webLogo3}
+          to="/"
+          twitter='https://www.twitter.com/tpchant'
+          linkedin='https://www.linkedIn.com'
+          github='https://github.com/DoubleNemesis'
+          youtube='https://www.youtube.com/tchant'
+          youtube='chantaspell@yahoo.com'
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <span>
+            <Link to="/">home</Link>
+          </span>
+          <span>
+            <Link to="/about">about</Link>
+          </span>
+          <span>
+            <Link to="/portfolio">portfolio</Link>
+          </span>
+          <span>
+            <Link to="blog">vlog</Link>
+          </span>
+          <span>
+            <Link to="contact">contact</Link>
+          </span>
+        </Header>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/blog">
+          <Blog />
+        </Route >
+        <Route path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Footer>
+          <h4><Link to="/">&copy; Thomas Chant 2021</Link></h4>
+          <span>
+          <span>
+            <Link to="/about">about</Link>
+          </span>
+          <span>
+            <Link to="/portfolio">portfolio</Link>
+          </span>
+          <span>
+            <Link to="blog">vlog</Link>
+          </span>
+          <span>
+            <Link to="contact">contact</Link>
+          </span>
+          </span>
+        </Footer>
+      </Router>
+    </>
   );
 }
 
