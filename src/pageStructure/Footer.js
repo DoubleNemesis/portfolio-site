@@ -41,23 +41,17 @@ cursor: pointer;
 :hover{
     color:red; 
 }
-
-
 `
 
 const Arrow = ()=> <>&uarr;&uarr;</>
 
 function Footer({ children, ...restProps }) {
-
-
     function handleClick() {
         window.scrollTo({
             top: 0,
             left: 115, behavior: 'smooth'
         });
     }
-
-
 
     return (
         <Container {...restProps}>{children}<Button onClick={handleClick}><Arrow/></Button></Container>

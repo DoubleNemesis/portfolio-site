@@ -1,14 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import Spacer from '../components/Spacer'
+import Spacer from '../../pageStructure/Spacer'
 
 const Container = styled.div`
 display:flex;
 flex-direction: row;
 background-color: whitesmoke;
 color: black;
-border-radius:.2em;
-
+border-radius:.2em; 
 
 @media(max-width: 1325px){
     flex-direction: column;
@@ -16,7 +15,6 @@ border-radius:.2em;
     justify-content: center;
             }
 `
-
 const StyledSocMedia = styled.nav`
 display: flex;
 flex-direction: column;
@@ -121,8 +119,6 @@ const Title = styled.h1`
     padding-top:none;
     padding-bottom:none;
 `
-
-
 function DisplayContact({ children, ...restProps }) {
     return (
         <>
@@ -141,7 +137,5 @@ function DisplayContact({ children, ...restProps }) {
         </>
     )
 }
-
-
 
 export default DisplayContact

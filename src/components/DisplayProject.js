@@ -63,9 +63,6 @@ p{
     max-width: 60%;
     padding: 0 2em 0 1em;
 }
-p>p{
-    padding: 0;
-}
 
 @media(max-width: 599px){
     p{
@@ -92,7 +89,7 @@ div{
     border-radius: .2em;
 }
 
-.tc {
+.largeProject{
     border-radius: 0;
     border-bottom-right-radius: .2em;
     border-bottom-left-radius: .2em;
@@ -105,7 +102,6 @@ div{
         max-width: 100%;
     }
 }
-
 
 .skillsIcons{
     display: flex;
@@ -127,18 +123,13 @@ div{
         width: 4em;
     }
 }
-
-
-
 `
-//    color: #f7df1e;
 const ProjectImage = styled.div`
 display: flex;
 justify-content: center;
 width: 100%;
 background-color: #fafafa;
 background-color: #333;
-
 
 @media(max-width: 1025px){
     width: 90%;
@@ -149,8 +140,6 @@ background-color: #333;
     border: 1px solid lightgrey;
     border: none;
     border-radius: unset;
-
-
     }
 
 img{
@@ -166,9 +155,7 @@ img{
         margin: 0;
                 }
 }
-`
-
-
+` 
 
 function DisplayProject({children, ...restProps}) {
     return (

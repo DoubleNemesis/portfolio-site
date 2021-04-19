@@ -1,10 +1,8 @@
 import React from 'react'
-import MainContainer from '../components/MainContainer'
-import MiniProject from '../components/MiniProject'
-import IntroBar from '../components/IntroBar'
+import MainContainer from '../pageStructure/MainContainer'
+import MiniProject from '../components/portfolioBlocks/MiniProject'
+import IntroBar from '../pageStructure/IntroBar'
 import projectData from '../data/projectData'
-
-
 
 function Portfolio(props) {
 
@@ -18,8 +16,6 @@ function Portfolio(props) {
         githubLink={item['githubLink']}
         />
     })
-
-    
 
     return (
         <>

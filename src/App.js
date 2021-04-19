@@ -1,8 +1,8 @@
 import React from 'react'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from './pageStructure/Header'
+import Footer from './pageStructure/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
 import Blog from './pages/Blog'
@@ -18,7 +18,7 @@ function App() {
     <>
       <Router>
         <Header
-          logo={webLogo3}
+          logo={webLogo3} 
           to="/"
           twitter='https://www.twitter.com/tpchant'
           linkedin='https://www.linkedIn.com'

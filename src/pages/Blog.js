@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import MainContainer from '../components/MainContainer'
-import IntroBar from '../components/IntroBar'
+import MainContainer from '../pageStructure/MainContainer'
+import IntroBar from '../pageStructure/IntroBar'
 import blogData from '../data/blogData'
-import Spacer from '../components/Spacer'
+import Spacer from '../pageStructure/Spacer'
 
 const Container = styled.div`
 display:flex;
@@ -35,13 +35,8 @@ iframe{
 }
 `
 
-
-
 const vlogItems = blogData['entries'].map((item) => {
-
     const srcToAdd = `https://www.youtube.com/embed/${item.embedCode}`
-
-
     return (
         <>
             <StyledMediaItem key={item.key}>

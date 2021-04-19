@@ -10,7 +10,7 @@ height: auto;
 background-color: #333;
 `
 
-const SmallBlock = styled.div`
+const InnerBlock = styled.div`
 width: 67%;
 position: absolute;
 height: 20em;
@@ -52,8 +52,7 @@ font-weight: 100;
             }
 }
 `
-
-const StyledInner = styled.div`
+const OuterBlock = styled.div`
 width: 100%;
 display: flex;
 flex-direction: column;
@@ -62,15 +61,13 @@ height: auto;
 margin-top: 0em;
 background-color: #333;
 
-
 img{
     width: 100%;
     height: 500px;
     object-fit: cover;
-  object-position: center right;
+    object-position: center right;
     opacity: .5;
     filter: brightness(60%);
-
 
     @media(max-width: 1025px){
         width: 100%;
@@ -82,20 +79,16 @@ img{
 @media(max-width:820px){
     width: auto;
     margin-top: 6vw;
-
-
 }
 `
-
-
 function HomePageBlockBG({ children, ...restProps }) {
     return (
         <Container>
-            <SmallBlock>
-                <h1>{restProps.leftBlock}</h1>
-                <h4>{restProps.leftBlockBlurb}</h4>
-            </SmallBlock>
-            <StyledInner {...restProps}>{children}</StyledInner>
+            <InnerBlock>
+                <h1>{restProps.blockHeadline}</h1>
+                <h4>{restProps.blockBlurb}</h4>
+            </InnerBlock>
+            <OuterBlock {...restProps}>{children}</OuterBlock>
         </Container>
     )
 }
