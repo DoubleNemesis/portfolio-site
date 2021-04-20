@@ -73,14 +73,10 @@ img{
 }
 `
 
-
-
-
-function DisplayAboutTextOnly({ children, ...restProps }) {
+function DisplayAboutTextMe({ children, ...restProps }) {
     return (
         <Container><ProjectText>{restProps.text}</ProjectText><ProjectImage>{restProps.image}</ProjectImage></Container>
-    
     )
 }
 
-export default DisplayAboutTextOnly
+export default DisplayAboutTextMe

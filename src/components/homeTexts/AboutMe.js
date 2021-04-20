@@ -2,7 +2,7 @@ const AboutMe = (props) => {
     return (
         <>
 
-            <div className="aboutMeInner">
+            <div className="aboutMeInner"> 
                 <p>
                     <b>I'm a frontend developer from Exeter, Devon, UK</b>
                     <br />

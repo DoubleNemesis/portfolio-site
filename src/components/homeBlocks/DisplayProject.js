@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import tom from '../images/tom9.png'
+import tom from '../../images/tom9.png'
 
 const Container = styled.div`
 display:flex;
@@ -35,8 +35,6 @@ display: flex;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-
 }
 
     @media(max-width: 599px){

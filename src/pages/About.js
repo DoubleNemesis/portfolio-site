@@ -1,13 +1,13 @@
 import React from 'react'
 import MainContainer from '../pageStructure/MainContainer'
-import DisplayAboutTexts from '../components/DisplayAboutTexts'
-import DisplayAboutTextOnly from '../components/DisplayAboutTextOnly'
-import DisplayHistory from '../components/DisplayHistory'
+import DisplayAboutTexts from '../components/aboutBlocks/DisplayAboutTexts'
+import DisplayAboutTextMe from '../components/aboutBlocks/DisplayAboutTextMe'
+import DisplayAboutHistory from '../components/aboutBlocks/DisplayAboutHistory'
 import IntroBar from '../pageStructure/IntroBar'
 import Spacer from '../pageStructure/Spacer'
 import AboutMe from '../components/aboutTexts/AboutMe'
 import AboutWork from '../components/aboutTexts/AboutWork'
-import AboutStudy from '../components/aboutTexts/AboutStudy'
+import AboutStudy from '../components/aboutTexts/AboutStudy' 
 import AboutSoftSkills from '../components/aboutTexts/AboutSoftSkills'
 import AboutFuture from '../components/aboutTexts/AboutFuture'
 import AboutBackstory from '../components/aboutTexts/AboutBackstory'
@@ -18,11 +18,11 @@ function About() {
         <>
             <MainContainer>
                 <IntroBar intro="About" /> 
-                <DisplayAboutTextOnly text={<AboutMe />} image={<TomImage />} />
+                <DisplayAboutTextMe text={<AboutMe />} image={<TomImage />} />
                 <Spacer height="1" />
-                <DisplayHistory title="work history" text={<AboutWork />} />
+                <DisplayAboutHistory title="work history" text={<AboutWork />} />
                 <Spacer height="1" />
-                <DisplayHistory title="study history" text={<AboutStudy />} />
+                <DisplayAboutHistory title="study history" text={<AboutStudy />} />
                 <Spacer height="1" />
                 <DisplayAboutTexts title="the future" text={<AboutFuture />} image={<ProjectImageFuture />} />
                 <Spacer height="1" />

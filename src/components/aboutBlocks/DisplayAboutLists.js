@@ -13,7 +13,6 @@ padding: 5em 0;
     align-items: center;
     padding:0;
 }
-
 `
 const ProjectText = styled.div`
 width: 50%;
@@ -67,9 +66,12 @@ img{
 
 }
 `
-function DisplayAboutLists({children, ...restProps}) {
+function DisplayAboutLists({ children, ...restProps }) {
     return (
-        <Container><ProjectImage>{restProps.image}</ProjectImage><ProjectText><h1>{restProps.title}</h1>{restProps.text}</ProjectText></Container>
+        <Container>
+            <ProjectImage>{restProps.image}</ProjectImage>
+            <ProjectText><h1>{restProps.title}</h1>{restProps.text}</ProjectText>
+        </Container>
     )
 }
 

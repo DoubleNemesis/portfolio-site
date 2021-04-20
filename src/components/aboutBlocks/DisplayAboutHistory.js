@@ -56,10 +56,10 @@ color: green;
 
 
 
-function DisplayHistory({ children, ...restProps }) {
+function DisplayAboutHistory({ children, ...restProps }) {
     return (
         <Container><Title><h1>{restProps.title}</h1></Title><ProjectText>{restProps.text}</ProjectText></Container>
     )
 }
 
-export default DisplayHistory 
+export default DisplayAboutHistory 

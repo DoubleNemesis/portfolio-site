@@ -81,12 +81,15 @@ h1{
     margin-bottom: 2em;
 }
 `
-
-
-
 function DisplayAboutTexts({ children, ...restProps }) {
     return (
-        <Container><Title><h1>{restProps.title}</h1></Title><ProjectText>{restProps.text}</ProjectText><ProjectImage>{restProps.image}</ProjectImage></Container>
+        <Container>
+            <Title>
+                <h1>{restProps.title}</h1>
+            </Title>
+            <ProjectText>{restProps.text}</ProjectText>
+            <ProjectImage>{restProps.image}</ProjectImage>
+        </Container>
     )
 }
 
