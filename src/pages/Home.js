@@ -13,7 +13,7 @@ function Home(props) {
     return (
         <>
             <HomePageBlockBG blockHeadline="<Thomas Chant>" blockBlurb="frontend developer">
-                <img src={desk} />
+                <img src={desk} alt="Thomas Chant Frontend Developer"/>
             </HomePageBlockBG>
             <ProjectBlock intro="My Skillset">
                 <DisplayProject text={<SkillText />} />

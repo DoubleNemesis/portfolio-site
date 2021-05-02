@@ -17,17 +17,15 @@ font-size: .8rem;
     flex-direction: column;
 }
 
-h4{
+h5{
     color: black;
-    font-size: 1rem;
-    padding: 0 .5em;
-
+    padding: .5em;
 }
 
 span, a{
     color: black;
-    font-size: 1rem;
-    padding: 0 .5em;
+    font-size: 1.2rem;
+    padding: .5em .5em;
     text-decoration: none;
 }
 `

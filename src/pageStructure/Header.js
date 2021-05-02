@@ -212,7 +212,7 @@ function Header({ children, ...restProps }) {
                             <a href={restProps.linkedin}><i className="fab fa-linkedin" aria-label="linked in link"></i></a>
                             <a href={restProps.github}><i className="fab fa-github" aria-label="guthub link"></i></a>
                             <a href={restProps.youtube}><i className="fab fa-youtube" aria-label="youtube link"></i></a>
-                            <a href={restProps.email}><i className="fa fa-envelope" aria-label="email link"></i></a>
+                            <a href={`mailto:${restProps.email}`}><i className="fa fa-envelope" aria-label="email link"></i></a>
                         </StyledSocMedia>
                     </StyledDivInner>
                     <StyledMobileNav onClick={handleMenuToggle} isShownNav={isShownNav} aria-label="menu toggle mobile">|||</StyledMobileNav>

@@ -24,7 +24,7 @@ function App() {
           linkedin='https://www.linkedIn.com'
           github='https://github.com/DoubleNemesis'
           youtube='https://www.youtube.com/tchant'
-          youtube='chantaspell@yahoo.com'
+          email='test@test.com'
         >
           <span>
             <Link to="/">home</Link>
@@ -58,7 +58,7 @@ function App() {
           <Contact />
         </Route>
         <Footer>
-          <h4><Link to="/">&copy; Thomas Chant 2021</Link></h4>
+          <h5><Link to="/">&copy; Thomas Chant 2021</Link></h5>
           <span>
           <span>
             <Link to="/about">about</Link>

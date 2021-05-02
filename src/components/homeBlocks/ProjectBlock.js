@@ -62,10 +62,7 @@ padding-top: 0;
 @media(max-width: 1025px){
     width: 100%;
     } 
-
 `
-
-
 
 function ProjectBlock({ children, ...restProps }) {
     return (
