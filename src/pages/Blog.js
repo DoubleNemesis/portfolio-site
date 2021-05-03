@@ -9,6 +9,7 @@ const Container = styled.div`
 display:flex;
 flex-direction: row;
 justify-content: space-around;
+flex-wrap: wrap;
 width: 100%;
 
 @media(max-width: 800px){
@@ -19,6 +20,7 @@ width: 100%;
 const VideoTitle = styled.h2` 
 font-size: 1.2rem; 
 color: #999;
+height: 2em;
 `
 const StyledMediaItem = styled.div`
 display: flex;

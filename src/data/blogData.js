@@ -16,7 +16,7 @@ let data = {
     },
     {
         'key': 2,
-        'name': 'REACT UseContext hook with Styled Components',
+        'name': 'UseContext hook with Styled Components',
         'type': 'YouTube Video',
         'embedCode': 'kg_uSxt7Esw',
         'teaser': 'React useContext hook with Styled Components.',
