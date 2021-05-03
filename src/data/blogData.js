@@ -14,6 +14,13 @@ let data = {
         'embedCode': 'aGLUaDaa4ko',
         'teaser': 'Using the simple JWT login plugin to hook up a React app with a Wordpress backend.',
     },
+    {
+        'key': 2,
+        'name': 'REACT UseContext hook with Styled Components',
+        'type': 'YouTube Video',
+        'embedCode': 'kg_uSxt7Esw',
+        'teaser': 'React useContext hook with Styled Components.',
+    },
     ]}
 
 export default data
