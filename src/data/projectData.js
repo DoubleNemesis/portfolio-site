@@ -8,7 +8,7 @@ let data = {
         'projectUrl': 'http://www.tomsclassroom.com',
         'imageUrl': 'http://tomsclassroom.com/tomsclassroom3.png',
         'flipsSideText': 'A full-stack application to help English language students prepare for exams. Built with Wordpress\'s RST API and React. Students can create an account to save their progress.',
-        'githubLink' : '',
+        'githubLink' : 'https://github.com/DoubleNemesis/collocations-tester-nv',
     },
     {
         'key': 1,

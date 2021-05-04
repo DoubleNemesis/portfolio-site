@@ -21,9 +21,9 @@ function App() {
           logo={webLogo3} 
           to="/"
           twitter='https://www.twitter.com/tpchant'
-          linkedin='https://www.linkedIn.com'
+          linkedin='https://www.linkedin.com/in/thomas-chant-59b557a7/'
           github='https://github.com/DoubleNemesis'
-          youtube='https://www.youtube.com/tchant'
+          youtube='https://www.youtube.com/channel/UCSSNvHoAGsQLLgOaSjPcMIg'
           email='test@test.com'
         >
           <span>

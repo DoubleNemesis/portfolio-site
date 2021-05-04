@@ -13,9 +13,9 @@ function Contact() {
                 <IntroBar intro="contact" />
                 <DisplayContact title="You can find me everywhere..." text={<ContactDetails
                     twitter='https://www.twitter.com/tpchant'
-                    linkedin='https://www.linkedIn.com'
+                    linkedin='https://www.linkedin.com/in/thomas-chant-59b557a7/'
                     github='https://github.com/DoubleNemesis'
-                    youtube='https://www.youtube.com/tchant'
+                    youtube='https://www.youtube.com/channel/UCSSNvHoAGsQLLgOaSjPcMIg'
                 />} image={<ContactImage img={tom} />} />
             </MainContainer>
         </>
