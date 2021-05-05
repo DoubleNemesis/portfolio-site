@@ -30,11 +30,11 @@ let data = {
     },
     {
         'key': 3,
-        'projectName': 'React Wishlist',
+        'projectName': 'React Xmas Wishlist',
         'projectType': 'Mini Project',
-        'projectUrl': 'https://scrimba.com/scrim/cpMamJHq',
-        'imageUrl': 'http://tomsclassroom.com/wishlist.png',
-        'flipsSideText': 'A React wishlist app using FakeStore API. I also made a video of me building this app. It\'s 77 minutes long!',
+        'projectUrl': 'https://scrimba.com/scrim/co6f34b72a1d6344f3bfc1a51',
+        'imageUrl': 'http://tomsclassroom.com/xmaswishlist.png',
+        'flipsSideText': 'A React wishlist app using FakeStore API. I also made a video of me building the first version of this app. It\'s 77 minutes long!',
         'githubLink' : 'https://github.com/DoubleNemesis/LoadsaMoney',
     },
     {

@@ -10,9 +10,6 @@ import Portfolio from './pages/Portfolio'
 import Contact from './pages/Contact'
 import webLogo3 from './images/webLogo4.png'
 
-
-
-
 function App() {
   return (
     <>
