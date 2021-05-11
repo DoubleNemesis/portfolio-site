@@ -1,5 +1,5 @@
 import React from 'react'
-import HomePageBlockBG from '../components/homeBlocks/HomePageBlockBG'
+import HomePageBlock from '../components/homeBlocks/HomePageBlock'
 import ProjectBlock from '../components/homeBlocks/ProjectBlock'
 import DisplayProject from '../components/homeBlocks/DisplayProject'
 import desk from '../images/desk2.jpg'
@@ -12,9 +12,9 @@ import ProjectImage from '../components/homeImages/ProjectImage'
 function Home(props) {
     return (
         <>
-            <HomePageBlockBG blockHeadline="<Thomas Chant>" blockBlurb="frontend developer">
+            <HomePageBlock blockHeadline="<Thomas Chant>" blockBlurb="frontend developer">
                 <img src={desk} alt="Thomas Chant Frontend Developer"/>
-            </HomePageBlockBG>
+            </HomePageBlock>
             <ProjectBlock intro="My Skillset">
                 <DisplayProject text={<SkillText />} />
             </ProjectBlock>
