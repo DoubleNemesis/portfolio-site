@@ -2,7 +2,7 @@ import React from 'react'
 import MainContainer from '../pageStructure/MainContainer'
 import MiniProject from '../components/portfolioBlocks/MiniProject'
 import IntroBar from '../pageStructure/IntroBar'
-import projectData from '../data/projectData'
+import projectData from '../data/projectData' 
 
 function Portfolio(props) {
 

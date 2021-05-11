@@ -50,7 +50,7 @@ h1{
     letter-spacing: .1em; /* Adjust as needed */
     animation: 
       typing 4s steps(60, end),
-      blink-caret .75s step-end 6;
+      blink-caret .75s step-end 3;
   }
   
   /* The typing effect */
@@ -87,7 +87,7 @@ font-weight: 100;
     animation: 
       typing 4s steps(60, end),
       blink-caret .75s step-end 2;
-      animation-delay: 5s;
+      animation-delay: 3s;
       animation-fill-mode: forwards;
   }
 

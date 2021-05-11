@@ -1,3 +1,5 @@
+import LinkThrough from '../../pageStructure/LinkThrough'
+
 const AboutMe = (props) => {
     return (
         <>
@@ -14,8 +16,6 @@ const AboutMe = (props) => {
                     I have a Masters' degree in Creative Writing and many years' experience creating content both online and offline.
                     When I'm not coding or learning, you can often find me somewhere in the great outdoors or reading a good book.
                     <br />
-                    <br />
-                    <a href="/port/#/about">Read more about me...</a>
                 </p>
 
                 <div className="imgHolder"></div>
