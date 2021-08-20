@@ -16,14 +16,14 @@ to {opacity: 1);}
 from {top: -500px;}
 to {top: 2.8em;}
 `
-const rotateOpen = keyframes`
-from {transform: rotate(0deg);}
-to {transform: rotate(90deg));}
-`
-const rotateClose = keyframes`
-from {transform: rotate(90deg);}
-to {transform: rotate(0deg));}
-`
+// const rotateOpen = keyframes`
+// from {transform: rotate(0deg);}
+// to {transform: rotate(90deg));}
+// `
+// const rotateClose = keyframes`
+// from {transform: rotate(90deg);}
+// to {transform: rotate(0deg));}
+// `
 const Container = styled.div`
 z-index: 1;
 display:flex;

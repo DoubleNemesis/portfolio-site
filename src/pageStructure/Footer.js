@@ -15,11 +15,13 @@ font-size: .8rem;
 
 @media(max-width: 1025px){
     flex-direction: column;
+    margin-top: 1em;
 }
 
 h5{
     color: black;
     padding: .5em;
+
 }
 
 span, a{

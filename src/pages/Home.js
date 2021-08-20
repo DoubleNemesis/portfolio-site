@@ -15,17 +15,31 @@ function Home(props) {
     return (
         <>
             <HomePageBlock blockHeadline="<Thomas Chant>" blockBlurb="frontend developer">
-                <img src={desk} alt="Thomas Chant Frontend Developer" />
+                <img src={desk} alt="header image of desk" alt="Thomas Chant Frontend Developer" />
             </HomePageBlock>
+
             <ProjectBlock intro="My Skillset">
-                <DisplayProject text={<SkillText />} />
+                <DisplayProject>
+                    <SkillText />
+                </DisplayProject>
             </ProjectBlock>
+
             <ProjectBlock intro="MY CURRENT PROJECT">
-                <DisplayProject image={<ProjectImage img={tomsclassroom} />} text={<ProjectText />} extraClass="largeProject" />
+                <DisplayProject>
+                    <ProjectImage image={tomsclassroom} altText="main project - Tom's Classroom Collocation Checker" />
+                    <ProjectText />
+                </DisplayProject>
             </ProjectBlock>
-            <ProjectDisplay/>
+
+            <ProjectBlock intro="some recent projects">
+            <ProjectDisplay />
+
+            <LinkThrough href="#/portfolio">View Complete Portfolio</LinkThrough>
+            </ProjectBlock>
+
+
             <ProjectBlock intro="ABOUT ME">
-                <DisplayProject text={<AboutMe />} />
+                <AboutMe />
                 <LinkThrough href="#/about">Read More About Me</LinkThrough>
             </ProjectBlock>
 

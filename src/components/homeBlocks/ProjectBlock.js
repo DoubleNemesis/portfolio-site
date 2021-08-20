@@ -14,6 +14,7 @@ box-sizing: border-box;
 padding-bottom: 5em;
 padding-top: 3em;
 margin-top: 0em;
+margin: 0;
 
 
 @media(max-width: 1025px){
@@ -59,14 +60,15 @@ text-transform: uppercase;
 const Project = styled.div`
 width: 69%;
 padding-top: 0;
+
 @media(max-width: 1025px){
-    width: 100%;
+    width: 90%;
     } 
 `
 
 function ProjectBlock({ children, ...restProps }) {
     return (
-        <Container {...restProps}> 
+        <Container {...restProps}>
             <IntroContainer>
                 <Intro>{restProps.intro}</Intro>
             </IntroContainer>
