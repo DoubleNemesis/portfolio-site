@@ -46,9 +46,6 @@ padding: .5em 0 .5em 0;
     transform: rotateY(180deg);
   }
 }
-
-
-}
   
   .flip-box-front, .flip-box-back {
     position: absolute;
@@ -66,8 +63,6 @@ padding: .5em 0 .5em 0;
     color: black;
     transform: rotateY(180deg);
   }
-
-
 `
 
 const ProjectText = styled.div`
@@ -133,24 +128,8 @@ z-index: 0;
 padding: 1em 2em;
 text-align: left;
 
-}
 `
 function MiniProject({ children, ...restProps }) {
-
-  function handleClick(e) {
-    console.log(e.target.classList.contains('hidden'))
-    console.log(e.target.parentNode.parentNode.nextElementSibling)
-    e.target.parentNode.parentNode.nextElementSibling.classList.add('shown')
-    if (e.target.classList.contains('hidden')) {
-      e.target.classList.remove('hidden')
-    }
-    else {
-      e.target.classList.add('hidden')
-    }
-
-
-
-  }
 
   return (
     <>

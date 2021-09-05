@@ -1,6 +1,6 @@
 const ContactImage = (props) => {
     return (
-        <img src={props.img} alt="Tom" />
+        <img src={props.img} alt={props.altText} />
     )
 }
 

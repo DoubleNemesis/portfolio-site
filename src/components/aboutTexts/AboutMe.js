@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-        <p>
+        <div>
             <p>
                 I’m a front-end developer based in Devon in the Southwest of the UK and a recent graduate of the Scrimba Frontend Career Path.
             </p>
@@ -12,7 +12,7 @@ const AboutMe = () => {
             <p>
                 Please read on for details of my work and study history.
             </p>
-        </p>
+        </div>
     )
 }
 

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import styled, { keyframes } from 'styled-components'
 import { Link } from 'react-router-dom'
 
-
 const blendOut = keyframes`
     from {opacity: 1;}
     to {opacity: 0;}
@@ -16,20 +15,13 @@ to {opacity: 1);}
 from {top: -500px;}
 to {top: 2.8em;}
 `
-// const rotateOpen = keyframes`
-// from {transform: rotate(0deg);}
-// to {transform: rotate(90deg));}
-// `
-// const rotateClose = keyframes`
-// from {transform: rotate(90deg);}
-// to {transform: rotate(0deg));}
-// `
+
 const Container = styled.div`
 z-index: 1;
 display:flex;
 align-items: center;
 justify-content: center;
-background-color: transparent;
+background-color: white;
 `
 const StyledHeader = styled.div`
 z-index: 10;

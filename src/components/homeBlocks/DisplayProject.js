@@ -7,6 +7,10 @@ flex-direction: column;
 background-color: white;
 border-radius: 3px;
 
+
+@media(max-width: 700px){
+    border-radius: unset;
+            }
 @media(max-width: 1025px){
     align-items: center;
     justify-content: center;

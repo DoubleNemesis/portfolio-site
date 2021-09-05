@@ -40,12 +40,11 @@ iframe{
 const vlogItems = blogData['entries'].map((item) => {
     const srcToAdd = `https://www.youtube.com/embed/${item.embedCode}`
     return (
-        <>
+
             <StyledMediaItem key={item.key}>
                 <VideoTitle>{item.name}</VideoTitle>
                 <iframe src={srcToAdd} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             </StyledMediaItem>
-        </>
     )
 })
 

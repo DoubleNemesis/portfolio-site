@@ -9,7 +9,7 @@ function Portfolio(props) {
     let projectsToDisplay = projectData['projects'].map((item)=>{
         return <MiniProject 
         key={item['key']} 
-        linkName={<a href={item['projectUrl']} target="_blank">{item['projectName']}</a>} 
+        linkName={<a href={item['projectUrl']} target="_blank" rel="noreferrer">{item['projectName']}</a>} 
         projectType = {item['projectType']} 
         flipSideText={item['flipsSideText']} 
         image={<img src={item['imageUrl']} alt={item['imageUrl']}/>} 

@@ -1,17 +1,18 @@
 import styled from 'styled-components'
-import LinkThrough from '../../pageStructure/LinkThrough'
 import TomImage from '../homeImages/TomImage'
 import tom from './../../images/tom9.png'
 
 const Container = styled.div`
 display: flex;
 flex-direction: row;
-@media(max-width:700px){
-    flex-direction: column;
-}
 background-color: whitesmoke;
 border-radius: 3px;
 line-height: 1.6;
+
+@media(max-width:700px){
+    flex-direction: column;
+    border-radius: unset;
+}
 
 h1{
     font-size: 1.3rem;

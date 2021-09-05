@@ -11,13 +11,11 @@ margin-top: 1.5em;
     align-items: center;
 }
 `
-
 const StyledLinkThrough = styled.a`
 color: white;
 text-decoration: none;
 font-size: 1.2em;
 margin: 0 auto;
-
 
 :hover{
     text-decoration: underline;
@@ -27,7 +25,7 @@ margin: 0 auto;
 function LinkThrough({children, ...restProps}) {
     return (
         <Container>
-        <StyledLinkThrough {...restProps.href}>{children}</StyledLinkThrough>
+        <StyledLinkThrough href={restProps.href}>{children}</StyledLinkThrough>
         </Container>
     )
 }

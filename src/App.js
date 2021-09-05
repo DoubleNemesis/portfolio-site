@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Route, Link } from 'react-router-dom'
 
 import Header from './pageStructure/Header'
 import Footer from './pageStructure/Footer'
@@ -21,7 +21,7 @@ function App() {
           linkedin='https://www.linkedin.com/in/thomas-chant-59b557a7/'
           github='https://github.com/DoubleNemesis'
           youtube='https://www.youtube.com/channel/UCSSNvHoAGsQLLgOaSjPcMIg'
-          email='test@test.com'
+          email='thomaspchant@gmail.com'
         >
           <span>
             <Link to="/">home</Link>
@@ -33,10 +33,10 @@ function App() {
             <Link to="/portfolio">portfolio</Link>
           </span>
           <span>
-            <Link to="blog">vlog</Link>
+            <Link to="/blog">vlog</Link>
           </span>
           <span>
-            <Link to="contact">contact</Link>
+            <Link to="/contact">contact</Link>
           </span>
         </Header>
         <Route exact path="/">

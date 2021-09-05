@@ -64,6 +64,10 @@ padding-top: 0;
 @media(max-width: 1025px){
     width: 90%;
     } 
+@media(max-width: 700px){
+    width: 100%;
+    } 
+
 `
 
 function ProjectBlock({ children, ...restProps }) {

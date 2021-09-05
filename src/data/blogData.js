@@ -1,6 +1,13 @@
 let data = {
     'entries':[
     {
+        'key': 7,
+        'name': `Custom Hooks in React - easiest ever examples!`,
+        'type': 'YouTube Video',
+        'embedCode': 'ONbkapq_oD8',
+        'teaser': `Two easy to implement custom hooks.`,
+    },
+    {
         'key': 6,
         'name': `Controlling state with React's useReducer hook`,
         'type': 'YouTube Video',

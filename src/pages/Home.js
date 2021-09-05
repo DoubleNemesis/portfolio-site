@@ -15,7 +15,7 @@ function Home(props) {
     return (
         <>
             <HomePageBlock blockHeadline="<Thomas Chant>" blockBlurb="frontend developer">
-                <img src={desk} alt="header image of desk" alt="Thomas Chant Frontend Developer" />
+                <img src={desk} alt="Thomas Chant Frontend Developer" />
             </HomePageBlock>
 
             <ProjectBlock intro="My Skillset">
@@ -33,14 +33,13 @@ function Home(props) {
 
             <ProjectBlock intro="some recent projects">
             <ProjectDisplay />
-
-            <LinkThrough href="#/portfolio">View Complete Portfolio</LinkThrough>
+            <LinkThrough href="#portfolio">View Complete Portfolio</LinkThrough>
             </ProjectBlock>
 
 
             <ProjectBlock intro="ABOUT ME">
                 <AboutMe />
-                <LinkThrough href="#/about">Read More About Me</LinkThrough>
+                <LinkThrough href="#about">Read More About Me</LinkThrough>
             </ProjectBlock>
 
         </>

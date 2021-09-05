@@ -16,7 +16,7 @@ function Contact() {
                     linkedin='https://www.linkedin.com/in/thomas-chant-59b557a7/'
                     github='https://github.com/DoubleNemesis'
                     youtube='https://www.youtube.com/channel/UCSSNvHoAGsQLLgOaSjPcMIg'
-                />} image={<ContactImage img={tom} />} />
+                />} image={<ContactImage img={tom} altText="Tom Chant Web Developer" />} />
             </MainContainer>
         </>
     )
