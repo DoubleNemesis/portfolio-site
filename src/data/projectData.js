@@ -23,7 +23,7 @@ let data = {
         'key': 4,
         'projectName': 'Precision Recruitment',
         'projectType': 'Landing Page',
-        'projectUrl': 'https://www.thomaspchant.com/projects/lp',
+        'projectUrl': 'https://www.thomaspchant.com/projects/lp1',
         'imageUrl': 'https://www.thomaspchant.com/projects/lp1/lp1.jpg',
         'flipsSideText': 'A beautiful and responsive landing page built with vanilla JavaScript and CSS. The page has simple but eye-catching animations. It could easily be refactored in React or NextJS',
         'githubLink' : 'https://github.com/DoubleNemesis/landing-page-one',
